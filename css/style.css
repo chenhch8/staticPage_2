@@ -1,0 +1,195 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: url("../images/texture.png");
+    overflow: auto;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    min-width: 700px;
+}
+
+div {
+    text-align: center;
+    border-width: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    height:25px;
+    line-height:25px;
+    overflow:hidden;
+}
+
+.top {
+    background-color: #E7F0EB;
+    width: 100%;
+    height: 1.5em;
+    vertical-align: middle;
+    overflow:hidden;
+}
+
+.top a:nth-child(1) {
+    float: left;
+    padding: 0 0.5em;
+}
+
+.top a:nth-child(2) {
+    float: right;
+    padding: 0 0.5em;
+}
+
+.top a:nth-child(1):hover, .top a:nth-child(2):hover {
+    background-color: white;
+}
+
+.header > div, .body > div {
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px #F8ECBF dashed;
+}
+
+.header > div {
+    height: 570px;
+}
+
+.body > div {
+    height: 350px;
+}
+
+.header  h1 {
+    font-size: 68px;
+    line-height: 70px;
+    position: relative;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #F8ECBF;
+}
+
+.header  ol {
+    list-style: none;
+}
+
+.header  ol > p {
+    color: #F8ECBF;
+    font-size: 18px;
+}
+
+.header  ol > li {
+    display: inline-block;
+}
+
+.header  ol > li > a {
+    background-color: #B44A1E;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #F8ECBF;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.header  ol > li > a:hover {
+    background-color: #F8ECBF;
+    color: #B44A1E;
+}
+
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #EDE1B6;
+    border-radius: 100%;
+    border: 10px #452716 solid;
+    box-shadow: 0 0 9px 4px rgba(0,0,0,0.3);
+}
+
+.circle > h3 {
+    color: #D26A44;
+    font-size: 28px;
+    text-transform: uppercase;
+    width: 800px;
+    height: 50px;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -1px;
+    position: absolute;
+}
+
+.circle > div {
+    display: block;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin:-100px 0 0 -100px;
+    position: absolute;
+    font-size: 138px;
+    background: #452716 url(../images/noise.png) repeat top left;
+    font-family: 'Sail', serif;
+    text-shadow: 1px 1px 1px #954c04;
+}
+
+.circle > h4 {
+    font-size: 30px;
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    bottom: -35%;
+    margin-left: -250px;
+    color: #fff;
+    font-family: 'Concert One', serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.body h3, .example {
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+
+.body h3 {
+    float: left;
+    color: #F8ECBF;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.example > h4 {
+    font-size: 28px;
+    color: #D26A44;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+    margin: 20px 0;
+}
+
+.example * {
+    text-align: left;
+    display: block;
+}
+
+code {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.body > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
